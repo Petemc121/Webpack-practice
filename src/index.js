@@ -10,11 +10,11 @@ function component() {
   element.innerHTML = _.join(['Hello', 'webpack'], ' ');
   element.classList.add('hello');
 
-   // Add the image to our existing div.
-   const Image = new Image();
+   //Add the image to our existing div.
+   const myIcon = new Image();
    Image.src = Vietnam;
  
-   element.appendChild(Vietnam);
+   element.appendChild(myIcon);
 
   return element;
 }
